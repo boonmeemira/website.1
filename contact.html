@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake"> <!-- ใช้ธีม cupcake -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body class="text-white" style="background-image: url('https://images.pexels.com/photos/27975935/pexels-photo-27975935/free-photo-of-a-cactus-plant-in-the-dark-with-a-light-shining-on-it.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'); background-size: cover; background-position: center;"> <!-- เพิ่มภาพพื้นหลังให้กับทั้งหน้า -->
+
+  <!-- Header -->
+  <header class="navbar bg-gradient-to-r from-black to-black text-white shadow-lg">
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl font-bold">Cactus</a>
+    </div>
+    <div class="flex justify-center items-center w-full">
+      <ul class="menu menu-vertical md:menu-horizontal px-1 space-y-4 md:space-y-0 md:flex md:space-x-6">
+        <li><a href="index.html" class="font-semibold hover:text-yellow-300">Home</a></li>
+        <li><a href="about.html" class="font-semibold hover:text-yellow-300">About</a></li>
+        <li><a href="contact.html" class="font-semibold hover:text-yellow-300">Contact</a></li>
+      </ul>
+    </div>
+  </header>  
+
+  <!-- Main Content -->
+  <main class="p-16 text-center">
+    <h1 class="text-5xl font-extrabold text-white drop-shadow-md">
+      <i class="fas fa-leaf mr-2 text-green-500"></i>Contact Us
+    </h1>        
+    <form class="mt-6 bg-white text-gray-700 p-8 rounded-lg shadow-xl max-w-lg mx-auto">
+      <div class="border border-gray-300 rounded-lg p-6 shadow-lg bg-white">
+        <div class="form-control mb-4">
+          <label class="label">
+            <span class="label-text font-bold text-gray-600">Your Name</span>
+          </label>
+          <input type="text" placeholder="Enter your name" class="input input-bordered border-blue-400">
+        </div>
+        <div class="form-control mb-4">
+          <label class="label">
+            <span class="label-text font-bold text-gray-600">Email</span>
+          </label>
+          <input type="email" placeholder="Enter your email" class="input input-bordered border-blue-400">
+        </div>
+        <div class="form-control mb-4">
+          <label class="label">
+            <span class="label-text font-bold text-gray-600">Message</span>
+          </label>
+          <textarea placeholder="Write your message here" class="textarea textarea-bordered border-blue-400"></textarea>
+        </div>
+      </div>      
+      <button class="btn bg-green-700 text-white font-bold py-2 px-6 rounded-lg shadow-lg hover:bg-green-800 transition-all mt-8">
+        <i class="fas fa-paper-plane mr-2"></i> Send
+      </button>      
+    </form>
+  </main>
+  <!-- Footer -->
+  <footer class="footer p-10 bg-black text-white shadow-inner"> <!-- เปลี่ยนจาก bg-yellow-200 เป็น bg-black และ text-black เป็น text-white -->
+    <p class="text-center font-semibold">Cactus | Feel free to contact us anytime.</p>
+  </footer>  
+</body>
+</html>

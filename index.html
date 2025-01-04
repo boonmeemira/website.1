@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/daisyui"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+  <style>
+    body {
+      background-image: url('https://cdn.pixabay.com/photo/2021/11/09/16/37/plant-6781896_1280.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="bg-base-100 text-black min-h-screen flex flex-col">
+
+  <!-- ส่วน Header -->
+  <header class="navbar bg-base-200 shadow-lg">
+    <div class="flex-1 bg-black">
+      <a class="btn btn-ghost normal-case text-xl font-bold text-white">Cactus</a>
+    </div>
+    <div class="flex justify-center items-center w-full bg-black">
+      <ul class="menu menu-vertical md:menu-horizontal px-1 space-y-4 md:space-y-0 md:flex md:space-x-6">
+        <li><a href="index.html" class="font-semibold hover:text-yellow-300 text-white">Home</a></li>
+        <li><a href="about.html" class="font-semibold hover:text-yellow-300 text-white">About</a></li>
+        <li><a href="contact.html" class="font-semibold hover:text-yellow-300 text-white">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- เนื้อหาหลัก -->
+  <main class="flex flex-col justify-center items-center p-8 text-center flex-grow">
+    <h1 class="text-5xl font-extrabold text-black drop-shadow-md">Welcome to Cactus</h1>
+    <p class="mt-4 text-xl text-black drop-shadow-sm">Beauty to pain begins here</p>
+    <button class="btn bg-green-700 text-white font-bold py-2 px-6 rounded-lg shadow-lg hover:bg-green-800 transition-all mt-8">
+      <i class="fas fa-rocket mr-2"></i> Get Started
+    </button>
+  </main>
+
+  <!-- ส่วน Footer -->
+  <footer class="footer p-4 bg-black text-white shadow-inner">
+    <div class="p-2">
+      <p class="font-semibold text-sm">
+        <i class="fas fa-leaf mr-2"></i> Cactus
+        Grow like bamboo: rooted in strength, yet flexible enough to survive the storm.
+      </p>
+    </div>
+    <div class="flex space-x-4">
+      <a href="#" class="btn btn-ghost text-white hover:text-pink-300"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="btn btn-ghost text-white hover:text-pink-300"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="btn btn-ghost text-white hover:text-pink-300"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake"> <!-- ใช้ธีม cupcake -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/daisyui"></script> <!-- เพิ่ม DaisyUI -->
+</head>
+<body class="bg-base-100 text-base-content"> <!-- ใช้พื้นหลังตามธีมที่กำหนดใน data-theme -->
+
+  <!-- Header -->
+  <header class="navbar bg-base-200 shadow-lg"> <!-- ใช้ bg-base-200 จากธีม -->
+    <div class="flex-1 bg-black">
+      <a class="btn btn-ghost normal-case text-xl font-bold text-white">Cactus</a>
+    </div>
+    <div class="flex justify-center items-center w-full bg-black">
+      <ul class="menu menu-vertical md:menu-horizontal px-1 space-y-4 md:space-y-0 md:flex md:space-x-6">
+        <li><a href="index.html" class="font-semibold hover:text-yellow-300 text-white">Home</a></li>
+        <li><a href="about.html" class="font-semibold hover:text-yellow-300 text-white">About</a></li>
+        <li><a href="contact.html" class="font-semibold hover:text-yellow-300 text-white">Contact</a></li>
+      </ul>
+    </div>    
+  </header>
+
+  <!-- Main Content -->
+  <main class="p-8 text-center"> 
+    <h1 class="text-5xl font-extrabold text-primary">Cactus</h1>
+    <p class="mt-4 text-xl text-secondary">Cactus species and their characteristics</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="Astrophytum 1.jpg" alt="Astrophytum" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">Astrophytum</h2> 
+        <p class="mt-2 text-secondary">Round shape with white dots resembling stars</p> 
+      </div>
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="Euphorbia 2.jpg" alt="Euphorbia" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">Euphorbia</h2>
+        <p class="mt-2 text-secondary">Its trunk is triangular or square in shape</p>
+      </div>
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="Golden Barrel 3.jpg" alt="Golden Barrel" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">Golden Barrel</h2>
+        <p class="mt-2 text-secondary">It is round or epic in size</p>
+      </div>
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="Opuntia 4.jpg" alt="Golden Barrel" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">Opuntia</h2>
+        <p class="mt-2 text-secondary">The leaves are flat and have small, velvet-like hairs</p>
+      </div>
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="Haworthia 5.jpg" alt="Golden Barrel" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">Haworthia</h2>
+        <p class="mt-2 text-secondary">Bright green or dark green leaves with white or clear stripes at small spots or veins on the leaves.</p>
+      </div>
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="Blue Myrtle-Cactus 6.jpg" alt="Golden Barrel" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">Blue Myrtle-Cactus</h2>
+        <p class="mt-2 text-secondary">It is a cactus that stands out with its stem color and tall, straight shape.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer p-10 bg-black text-white shadow-inner"> <!-- เปลี่ยนจาก bg-base-200 เป็น bg-black และ text-black เป็น text-white -->
+    <p class="font-semibold text-center">Cactus | Learn more about our cactus breeders</p>
+  </footer>   
+</body>
+</html>
